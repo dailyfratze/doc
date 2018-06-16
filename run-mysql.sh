@@ -7,4 +7,4 @@ docker run -d -p 3306:3306 --name dailyfratze_prod \
 
 mysql --host=127.0.0.1 --port=3306  -uroot -proot --default-character-set=utf8 
 
-pgloader create_and_fill_import_schema.command
+pgloader create-and-fill-import-schema.command
